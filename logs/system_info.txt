@@ -1,0 +1,29 @@
+
+
+[---------] SYSTEM INFO [---------]
+
+Python Version:
+  3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]
+
+Platform Information:
+  System: Linux
+  Release: 6.8.0-63-generic
+  Version: #66-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 13 20:25:30 UTC 2025
+  Machine: x86_64
+  Processor: x86_64
+
+CPU Information:
+  Physical cores: 10
+  Total cores: 10
+  Max Frequency: 0.00 Mhz
+  Current Frequency: 1996.25 Mhz
+
+Memory Information:
+  Total: 23.47 GB
+  Available: 18.18 GB
+  Used: 3.30 GB
+
+Disk Information (>80%):
+
+
+[---------] SYSTEM INFO [---------]

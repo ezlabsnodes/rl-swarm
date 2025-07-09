@@ -1,0 +1,99 @@
+#EZLabs
+
+size: 300
+seed: 42
+
+datasets:
+  - name: arc_1d
+    weight: 1
+    config:
+      min_size: 8
+      max_size: 20
+      num_train: 2
+      seed: 42
+      size: 20
+  
+  - name: basic_arithmetic
+    weight: 1
+    config:
+      min_terms: 2
+      max_terms: 5
+      min_digits: 1
+      max_digits: 3
+      operators: ["+", "-", "*", "/"]
+      allow_parentheses: true
+      allow_negation: false
+      format_style: "natural"
+      whitespace: "single"
+      seed: 1234
+      size: 20
+  
+  - name: base_conversion
+    weight: 1
+    config:
+      min_base: 2
+      max_base: 12
+      min_value: 0
+      max_value: 200
+      seed: 1239
+      size: 20
+
+  - name: bf
+    weight: 0.7
+    config: 
+      difficulty: 1
+      seed: 1238
+      size: 15
+
+  - name: binary_matrix
+    weight: 1
+    config:
+      min_n: 3
+      max_n: 8
+      p_zero: 0.3
+      seed: 1236
+      size: 20
+      
+  - name: calendar_arithmetic
+    weight: 0.7
+    config:
+      year: 2023
+      offset_upper_bound: 50
+      leap_year_range: 150
+      tasks: ["weekday_of_date", "is_leap_year", "count_days"]
+      seed: 1237
+      size: 15
+
+  - name: decimal_arithmetic
+    weight: 0.7
+    config:
+      min_terms: 2
+      max_terms: 4
+      min_num_decimal_places: 1
+      max_num_decimal_places: 2
+      precision: 4
+      seed: 1235
+      size: 15
+      
+  - name: fraction_simplification
+    weight: 1
+    config:
+      min_value: 1
+      max_value: 75
+      min_factor: 2
+      max_factor: 75
+      styles: ["plain", "latex_frac"]
+      seed: 1236
+      size: 20
+      
+  - name: propositional_logic
+    weight: 1
+    config:
+      min_vars: 2
+      max_vars: 3
+      min_statements: 2
+      max_statements: 3
+      min_complexity: 1
+      max_complexity: 2
+      seed: 1238
+      size: 20

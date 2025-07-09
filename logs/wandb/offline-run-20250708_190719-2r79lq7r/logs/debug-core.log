@@ -1,0 +1,9 @@
+{"time":"2025-07-08T19:07:19.230630197+02:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp8d5858ct/port-2243.txt","pid":2243,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-07-08T19:07:19.231340861+02:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":2243}
+{"time":"2025-07-08T19:07:19.231316784+02:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-2243-2275-3284104932/socket","Net":"unix"}}
+{"time":"2025-07-08T19:07:19.405234034+02:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-07-08T19:07:19.414252214+02:00","level":"INFO","msg":"handleInformInit: received","streamId":"2r79lq7r","id":"1(@)"}
+{"time":"2025-07-08T19:07:19.521719213+02:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"2r79lq7r","id":"1(@)"}
+{"time":"2025-07-09T17:51:26.426810696+02:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"2r79lq7r","id":"1(@)"}
+{"time":"2025-07-09T17:51:26.428705387+02:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"2r79lq7r","id":"1(@)"}
+{"time":"2025-07-09T17:51:27.935230419+02:00","level":"INFO","msg":"server: parent process exited, terminating service process"}
